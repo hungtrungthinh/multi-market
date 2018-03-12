@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel server
+                    Laravel local
                 </div>
 
                 <div class="links">
