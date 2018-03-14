@@ -4,21 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3264e3d18cf07a011f7dd05ffaf3b03e",
+    "hash": "b35a03f4d45efad7b7485b8bc48a3187",
+    "content-hash": "f908712f9db478cc60418e369fcb664f",
     "packages": [],
     "packages-dev": [
         {
             "name": "laravel/homestead",
-            "version": "v7.1.2",
+            "version": "v7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "4ee5e98e22a6e5625392e48c82095ec257debcf1"
+                "reference": "9f3654533723a792df2327b99e127d20be22e725"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/4ee5e98e22a6e5625392e48c82095ec257debcf1",
-                "reference": "4ee5e98e22a6e5625392e48c82095ec257debcf1",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/9f3654533723a792df2327b99e127d20be22e725",
+                "reference": "9f3654533723a792df2327b99e127d20be22e725",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +56,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-02-07T22:03:46+00:00"
+            "time": "2018-03-12 19:16:22"
         },
         {
             "name": "symfony/console",
@@ -123,7 +124,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-29T09:06:29+00:00"
+            "time": "2018-01-29 09:06:29"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -182,7 +183,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-01-30T19:27:44+00:00"
+            "time": "2018-01-30 19:27:44"
         },
         {
             "name": "symfony/process",
@@ -231,7 +232,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-29T09:06:29+00:00"
+            "time": "2018-01-29 09:06:29"
         },
         {
             "name": "symfony/yaml",
@@ -289,7 +290,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-21T19:06:11+00:00"
+            "time": "2018-01-21 19:06:11"
         }
     ],
     "aliases": [],
