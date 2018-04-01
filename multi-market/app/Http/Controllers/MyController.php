@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Products;
 use Illuminate\Http\Request;
+use App;
+
 
 class MyController extends Controller
 {
@@ -40,12 +43,17 @@ class MyController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Request $request)
     {
-        //
+        $products = Products::select()->get();
+
+
+        dd($products);
+
+        return view('show');
     }
 
     /**

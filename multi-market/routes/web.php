@@ -12,3 +12,4 @@
 */
 
 Route::get('/','MyController@index');
+Route::post('/show','MyController@show');
