@@ -3,12 +3,11 @@
 
     @include('menu')
 
-
+    @if(!empty($product_details))
     <div class="product_details">
         <img src="{{ $product_details['mediumImage'] }}">
     </div>
     <h3>{{$product_details['name']}}</h3>
-    <h5>{{$product_details['shortDescription']}}</h5>
     <table class="table table-striped">
         <thead>
         <tr>
@@ -29,5 +28,8 @@
         @endforeach
         </tbody>
     </table>
+    @else
+        <h4>Sorry, there is no data. Please try another barcode</h4>
+    @endif
 
     @include('footer')

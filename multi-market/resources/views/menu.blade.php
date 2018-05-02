@@ -1,6 +1,7 @@
 <div class="masthead">
-    <h3 class="text-muted">Multi Market</h3>
-
+    <a href="{{ URL::to('/')}}" class="logo">
+        <h3 class="text-muted">Multi Market</h3>
+    </a>
     <nav class="navbar navbar-light bg-faded rounded mb-3">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -15,7 +15,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/imgs/supermarket-icon.jpg">
 
-    <title>Multi Market</title>
+    <title>Multi Market2</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/">
 
     <!-- Bootstrap core CSS -->
