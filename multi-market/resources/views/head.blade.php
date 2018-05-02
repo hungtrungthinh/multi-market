@@ -24,6 +24,9 @@
     <!-- Custom styles for this template -->
     <link href="css/justified-nav.css" rel="stylesheet">
 
+
+    <link href="/css/my_style.css" rel="stylesheet">
+
 </head>
 
 <body>

@@ -13,5 +13,6 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
-.sass('resources/assets/sass/justified-nav.scss', 'public/css');
+.sass('resources/assets/sass/justified-nav.scss', 'public/css')
+.sass('resources/assets/sass/my_style.scss', 'public/css');
 
